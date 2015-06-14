@@ -1,7 +1,10 @@
 # webpos
-Simple test to get position from browser. 
+Simple test to get position from browser.
 
-## Future
+Demo is running at
 
-Might write a tool to send an email/sms with a specific url that can be used to add a position to ongoing call to an organisation.
+* [http://espressohouse.coffee/position/](http://espressohouse.coffee/position/)
 
+## Future ideas
+
+Write program that sends an sms (start with email) with a specific url that positions a caller of an ongoing call when the user hits submit.
