@@ -1,0 +1,8 @@
+# Makefile contains server settings
+Makefile
+
+# Deploy files
+index.html.deploy
+
+# Ignore config file with API_KEY
+*.cfg

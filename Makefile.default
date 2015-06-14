@@ -1,0 +1,14 @@
+SSH_HOST=<hostname>
+SSH_USER=<username>
+SSH_PORT=22
+SSH_TARGET_DIR=/path
+
+deploy:
+	./deploy.sh
+	scp -P $(SSH_PORT) index.html.deploy $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)/index.html
+	rm index.html.deploy
+
+clean:
+	rm index.html.deploy
+
+all: deploy clean
