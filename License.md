@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 PR <code@reuteras.se>
+Copyright (c) 2015 PR <code@ongoing.today>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
